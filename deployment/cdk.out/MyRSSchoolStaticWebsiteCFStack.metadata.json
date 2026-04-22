@@ -1,0 +1,90 @@
+{
+  "/MyRSSchoolStaticWebsiteCFStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C81C01536"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/RSSchoolStaticSite/cloudfrontOAI/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RSSchoolStaticSitecloudfrontOAIDF2D7391"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/RSSchoolStaticSite/awsStaticWebsiteBucketCF/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RSSchoolStaticSiteawsStaticWebsiteBucketCF935DF856"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/RSSchoolStaticSite/awsDevCFDistribution/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RSSchoolStaticSiteawsDevCFDistribution7DAA01C9"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/RSSchoolStaticSite/awsStaticWebsiteBucketCF/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RSSchoolStaticSiteawsStaticWebsiteBucketCFPolicy340E9677"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/RSSchoolStaticSite/DeployWithInvalidation/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RSSchoolStaticSiteDeployWithInvalidationAwsCliLayer24753961"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/RSSchoolStaticSite/DeployWithInvalidation/CustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RSSchoolStaticSiteDeployWithInvalidationCustomResource587F4E4C"
+    }
+  ],
+  "/MyRSSchoolStaticWebsiteCFStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF"
+    }
+  ]
+}
