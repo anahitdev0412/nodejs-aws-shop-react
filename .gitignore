@@ -24,3 +24,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#deployment replated local files
+deployment/*.js
+deployment/cdk.out
