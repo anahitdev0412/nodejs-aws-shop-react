@@ -21,7 +21,7 @@ export class StaticSite extends Construct {
     );
 
     const siteBucket = new s3.Bucket(this, "awsStaticWebsiteBucketCF", {
-      bucketName: "aws-static-website-bucket-cf",
+      bucketName: "nodejs-shop-react-aws",
       publicReadAccess: false,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
@@ -33,7 +33,7 @@ export class StaticSite extends Construct {
         resources: [siteBucket.arnForObjects("*")],
         principals: [
           new iam.CanonicalUserPrincipal(
-            cloudfrontOAI.cloudFrontOriginAccessIdentityS3CanonicalUserId,
+            cloudfrontOAI.cloudFrontOriginAccessIdentityS3CanonicalUserId
           ),
         ],
       })

@@ -8,6 +8,7 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "deploy": "npm run build && cdk bootstrap && cdk deploy",
+    "destroy": "cdk destroy",
     "synth": "cdk synth"
   }
 }

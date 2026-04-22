@@ -8,6 +8,7 @@
     "preview": "npm run build && vite preview",
     "cdk": "cdk",
     "cdk:deploy": "npm --prefix deployment run deploy",
+    "cdk:destroy": "npm --prefix deployment run destroy",
     "synth": "cdk synth",
     "test": "vitest",
     "test:ui": "vitest --ui",
