@@ -1,19 +1,10 @@
 # React-shop-cloudfront
 
-This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
+This is frontend starter project for nodejs-aws mentoring program.
 
-- [Vite](https://vitejs.dev/) as a project bundler
-- [React](https://beta.reactjs.org/) as a frontend framework
-- [React-router-dom](https://reactrouterdotcom.fly.dev/) as a routing library
-- [MUI](https://mui.com/) as a UI framework
-- [React-query](https://react-query-v3.tanstack.com/) as a data fetching library
-- [Formik](https://formik.org/) as a form library
-- [Yup](https://github.com/jquense/yup) as a validation schema
-- [Vitest](https://vitest.dev/) as a test runner
-- [MSW](https://mswjs.io/) as an API mocking library
-- [Eslint](https://eslint.org/) as a code linting tool
-- [Prettier](https://prettier.io/) as a code formatting tool
-- [TypeScript](https://www.typescriptlang.org/) as a type checking tool
+- [link to S3 Bucket](https://nodejs-shop-react-aws.s3.eu-west-1.amazonaws.com/) It shows Access Denied error
+- [link to cloudfront Distribution](https://dcsugwpkgxrpt.cloudfront.net/) It shows the frontend Application
+
 
 ## Available Scripts
 
@@ -29,10 +20,10 @@ Builds the project for production in `dist` folder.
 
 Starts the project in production mode on local environment.
 
-### `test`, `test:ui`, `test:coverage`
+### `npm run cdk:deploy`
 
-Runs tests in console, in browser or with coverage.
+Builds, bootstraps the deployment and deploys to AWS
 
-### `lint`, `prettier`
+### `npm run cdk:destroy`
 
-Runs linting and formatting for all files in `src` folder.
+Destroys the current deployment with its corresponding resources
