@@ -1,5 +1,5 @@
 {
-  "name": "ws-cdk-deployment",
+  "name": "aws-cdk-deployment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,9 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "deploy": "npm run build && cdk bootstrap && cdk deploy",
+    "bootstrap": "cdk bootstrap",
+    "deploy": "npm run build && cdk deploy --require-approval never",
     "destroy": "cdk destroy",
-    "synth": "cdk synth"
+    "synth": "npm run build && cdk synth"
   }
 }
