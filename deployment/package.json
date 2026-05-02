@@ -1,0 +1,15 @@
+{
+  "name": "aws-cdk-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "bootstrap": "cdk bootstrap",
+    "deploy": "npm run build && cdk deploy --require-approval never",
+    "destroy": "cdk destroy",
+    "synth": "npm run build && cdk synth"
+  }
+}
