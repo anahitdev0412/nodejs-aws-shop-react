@@ -18,19 +18,19 @@ export default function Products() {
   return (
     <Grid container spacing={4}>
       {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
-      {data.map(({ count, ...product }, index) => (
+      {data.map(({ ...product }, index) => (
         <Grid item key={product.id} xs={12} sm={6} md={4}>
           <Card
             sx={{ height: "100%", display: "flex", flexDirection: "column" }}
           >
             <CardMedia
               sx={{ pt: "56.25%" }}
-              image={`https://picsum.photos/300/300?random=${index}`}
-              title="Image title"
+              image={product.image}
+              title={product.productName}
             />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="h2">
-                {product.title}
+                {product.productName}
               </Typography>
               <Typography>{formatAsPrice(product.price)}</Typography>
             </CardContent>
