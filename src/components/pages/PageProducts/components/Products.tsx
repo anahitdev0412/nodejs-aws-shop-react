@@ -25,12 +25,12 @@ export default function Products() {
           >
             <CardMedia
               sx={{ pt: "56.25%" }}
-              image={product.image}
-              title={product.productName}
+              image={"https://via.placeholder.com/300"}
+              title={product.title}
             />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="h2">
-                {product.productName}
+                {product.title}
               </Typography>
               <Typography>{formatAsPrice(product.price)}</Typography>
             </CardContent>
