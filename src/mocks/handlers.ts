@@ -7,7 +7,7 @@ export const handlers = [
     return HttpResponse.json(products, { status: 200 });
   }),
 
-  http.put(`${API_PATHS.bff}/product`, async () => {
+  http.post(`${API_PATHS.bff}/product`, async () => {
     return new HttpResponse(null, { status: 200 });
   }),
 
@@ -25,6 +25,8 @@ export const handlers = [
     if (!product) {
       return new HttpResponse(null, { status: 404 });
     }
+
+    console.log("product", product);
 
     return HttpResponse.json(product, { status: 200 });
   }),
